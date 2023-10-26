@@ -1,0 +1,38 @@
+body {
+	background-color: transparent;
+	background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+
+.figure-img {
+	margin-bottom: 0;
+}
+
+header h1 {
+	line-height: 40vw;
+	z-index: 10;
+}
+
+main .card {
+	min-height: 350px;
+}
+
+main .card p {
+	min-height: 250px;
+}
